@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photography portal</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#gallery">Show Case Gallery</a>
+        <a href="#services">Services</a>
+        <a href="#form">Contact us</a>
+        <a href="#social">Social Links</a>
+        
+    </div>
+    <div class="row" id="Home">
+        <div class="main">
+            <h1>Welcome to my photography portal</h1>
+            <h2>Hope you like it 💖!!</h2>
+            <button onclick="show()" >More info  <i class="fa fa-spinner fa-spin"></i></button>
+            <script>
+                function show(){
+                    alert("Server is busy now.");
+                }
+                    
+            </script>
+        </div>
+        <div class="side">
+            <img src="h.png" alt="image" width="100%" >
+        </div>
+    </div>
+    <hr>
+    <!-- gallery -->
+  
+    <div class="gal" id="gallery">
+        <h2 style="padding: 44px; text-align: center; font-weight: bold; font-size: 4rem;">Show Case Gallery</h2>
+        <div class="gallery">
+           <img src="l8.jpg" alt="pic1">
+           <div class="desc">Filter:Valencia</div>
+           <div class="gallery">
+              <img src="l6.jpg" alt="pic1">
+              <div class="desc">Filter:Gingham</div>
+           </div>
+        <div class="gallery">
+            <img src="l7.jpg" alt="pic1">
+            <div class="desc">Filter:Clarendon</div>
+        </div>
+     
+    </div>
+    <!-- Services -->
+    <h2 style="padding: 44px; text-align: center; font-weight: bold; font-size: 4rem;" id="services">Our Services</h2>
+    <div class="services">
+        <img src="s6.jpg" alt="image" width="25%" height="400">
+        <img src="s3.jpeg" alt="image" width="25%" height="400">
+        <img src="s5.jpg" alt="image" width="25%" height="400">
+        <img src="s3.jpg" alt="image" width="25%" height="400">
+    </div>
+    
+
+<hr>
+    <!-- Contact form -->
+    <h2 style="padding: 44px; text-align: center; font-weight: bold; font-size: 3rem;" id="form">Fill form to Contact us  </h2>
+    <div class="form" >
+        <form>
+            <label for="name">Full name:</label>
+            <input type="text" id="fname" name="name" placeholder="Enter your full name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email address" required>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option>india</option>
+                <option>nepal</option>
+                <option>usa</option>
+                <option>others</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="write comment here...." rows="10%" cols="70%"></textarea>
+            <input type="submit" value="submit" id="btn" >
+
+        </form>
+    </div>
+    
+    <!-- footer -->
+    <footer id="social">
+        <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+        <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+        <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+        <a href="#"><i class="fab fa-youtube"></i>Youtube</a>
+       
+        <marquee behavior="scroll" direction="left" scrollamount="5"> <p style="font-size: medium; margin-top: 1%;">This is professional website no &copy; rights | All right are reserved | this is a project website. </p></marquee>
+     
+    </footer>
+    
+</body>
+</html>
