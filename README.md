@@ -1,1 +1,1 @@
-Live Preview:https://leafy-khapse-c87506.netlify.app
+Live Preview:https://tarun-rawat-007.github.io/my-photography-portal/wtproject/index.html
